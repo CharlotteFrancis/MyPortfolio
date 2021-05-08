@@ -2,11 +2,27 @@
     font-weight: 200;
 }
 .my-name-box{
-    margin: 0 17%;
+    margin: 0 5% 0 10%;
+}
+.box-margin{
+    margin: 0 2% 2% 2%;
+}
+.box-margin-left{
+    margin: 0 0% 2% 2%;
+    display: flex;
+    justify-content: center;
+}
+.box-margin-right{
+    margin: 0 2% 2% 0%;
+    display: flex;
+    justify-content: center;
+}
+.my-section{
+    display: inline-block;
 }
 
 .my-h1{
-    font-size: x-large;
+    font-size: large;
     font-weight: 400;
     color: #8899a6;
     text-align: center;
@@ -22,10 +38,26 @@
 .my-nav{
     padding: 0 0;
 }
+.my-drop{
+    justify-content: flex-end;
+}
+.my-li{
+    text-align: right;
+    margin-right: 1%;
+}
 
 .titlePad{
     padding: 2%;
 }
+
+.contact-image-container{
+    width: 50%;
+}
+.contact-image{
+    object-fit: contain;
+    width: 100%;
+}
+
 
 
 .myGreen{
@@ -47,4 +79,16 @@
 .myRed{
     /* red */
     background-color: #ff8b94;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .my-h1{
+        font-weight: 200;
+        font-size: 17px;
+    }
+    .contact-image-container{
+        width: 100%;
+    }
 }
