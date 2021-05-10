@@ -17,6 +17,11 @@
     display: flex;
     justify-content: center;
 }
+
+.my-center{
+    display: flex;
+    justify-content: center;
+}
 .my-section{
     display: inline-block;
 }
