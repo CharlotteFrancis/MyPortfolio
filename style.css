@@ -5,21 +5,40 @@ a:active{
 .footer-adjust{
     margin-bottom: 5%;
 }
+.footer-pad{
+    padding: 5px;
+}
 
+.my-h1{
+    font-size: large;
+    font-weight: 400;
+    color: #8899a6;
+    text-align: center;
+}
 .my-h2{
-    font-weight: 200;
+    font-weight: 300;
+    font-size: 27px;
+    color: white;  
+}
+.my-h3{
+    font-weight: 300;
+    font-size: 20px;
+    color: #8899a6;
 }
 .my-name-box{
     margin: 0 5% 0 10%;
 }
+
 .box-margin{
     margin: 0 2% 2% 2%;
 }
+
 .box-margin-left{
     margin: 0 0% 2% 2%;
     display: flex;
     justify-content: center;
 }
+
 .box-margin-right{
     margin: 0 2% 2% 0%;
     display: flex;
@@ -45,12 +64,6 @@ a:active{
     display: inline-block;
 }
 
-.my-h1{
-    font-size: large;
-    font-weight: 400;
-    color: #8899a6;
-    text-align: center;
-}
 
 .my-hr{
     width: 90%;
@@ -86,14 +99,28 @@ a:active{
     object-fit: contain;
     width: 100%;
 }
+.my-arrow{
+    width: 128px;
+}
+.arrow-section{
+    background-color: #f8d9cf;
+    padding: 5% 5% 25% 5%
+}
+
+.social{
+    width: 32px;
+    height: 32px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+/* colors */
 .white-text{
     color: white;
 }
-
-
-
-
-
 .myGreen{
     /* green */
     background-color: #a8e6cf; 

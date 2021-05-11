@@ -11,12 +11,12 @@
 <body>
     <!-- Bootstrap Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark myPeach my-nav">
-        <div class="container-fluid">
+        <section class="container-fluid">
             <a class="navbar-brand myRed titlePad my-name-box" href="./index.html"><h2 class = "my-h2">Charlotte Wong</h2></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
+            <figure class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item my-li">
                         <a class="nav-link" href="./index.html">Home</a>
@@ -28,13 +28,10 @@
                         <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
                     </li>
                 </ul>
-                <!-- optional text at the top to add later -->
-            <!--<span class="navbar-text">
-                    Navbar text with an inline element
-                </span> -->
-            </div>
-        </div>
+            </figure>
+        </section>
     </nav>
+
     <!-- main -->
     <main class="container footer-adjust">
         <br>
@@ -50,30 +47,26 @@
         <hr class="my-hr">
 
         <section class="row">
+            <!-- aside -->
             <aside class="col-sm-6 contact-image-container my-section">
                 <figure class="row box-margin-left">
-                    <!-- image here -->
                     <a href="https://www.youtube.com/watch?v=Q8hp2IkI2es" target = "_blank">
                         <img class="my-image" alt="clouds" src="./Assets/contactMe.jpg">
                     </a>
-                    <!-- <img src="./Assets/contactMe.jpg" alt="clouds"> -->
                 </figure>
                 <section class="row box-margin-left">
                     <h1 class="my-h1">Ask me stuff!</h1>
                     <p>
                         Let me know if you need anything! I am free on weekdays before 4pm.
                     </p>
-                    <!-- some text here -->
                 </section>
             </aside>
-
-            <!-- end aside -->
+            <!-- contact form -->
             <section class="col-sm-6 my-section">
                 <section class="row box-margin-right">
                     <h1 class = "my-h1">Ask me about anything!</h1>
                 </section>
                 <section class="row box-margin">
-                    <!-- contact form here -->
                     <div class="mb-3">
                         <label for="inputName" class="form-label">Name</label>
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
@@ -91,24 +84,18 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <button type="button" class="btn btn-light myRed">Send!</button>
-                </section>
-                <!-- end contact form -->    
+                </section>   
             </section>
         </section>
         <!-- end row -->
     </main>
 
-    <br>
+    <!-- footer -->
     <footer class="card fixed-bottom">
-        <!-- <section class="card-header white-text myRed my-center">
-          Featured
-        </section> -->
-        <main class="card-body my-center myPeach">
-          <p class="card-text white-text">
-              <a class = "my-link" href="./index.html">Home</a> | 
-              <a class = "my-link" href="./portfolio.html">Portfolio</a> | 
-              <a class = "my-link" href="./contact.html">Contact</a>
-          </p>
+        <main class="card-body my-center myPeach footer-pad">
+            <a href="https://github.com/CharlotteFrancis">
+                <img class= "social" src="./Assets/GitHub-Mark-64px.png" alt="Git Logo">
+            </a>
         </main>
     </footer>
 
